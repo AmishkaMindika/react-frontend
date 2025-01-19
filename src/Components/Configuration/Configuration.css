@@ -1,0 +1,92 @@
+.configuration {
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 40px;
+  background-color: #5ddbc6;
+  border-radius: 8px;
+  box-shadow: 0 2px 2px rgba(0, 0, 0, 0.1);
+}
+
+.configuration h2 {
+  text-align: center;
+  color: #0d1b49;
+  margin-bottom: 20px;
+  font-size: 24px;
+  border-bottom: 2px solid #007bff;
+  padding-bottom: 10px;
+}
+
+.configuration p {
+  margin-bottom: 5px;
+  color: #555;
+}
+
+.configuration input[type="number"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #297e8a;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+.configuration input[type="number"]:focus {
+  outline: none;
+  border-color: #007bff;
+  box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}
+
+.configuration button {
+  text-align: center;
+  background-color: #007bff;
+  color: rgb(236, 247, 247);
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.configuration button:hover {
+  text-align: center;
+  background-color: #0056b3;
+}
+
+.configuration button:focus {
+  
+  outline: none;
+  box-shadow: 0 0 0 0.2rem rgba(44, 116, 194, 0.5);
+}
+
+.current-config {
+  text-align: center;
+  margin-top: 30px;
+  background-color: #f2f5f4;
+  padding: 15px;
+  border-radius: 4px;
+}
+
+.current-config p {
+  margin: 5px 0;
+  font-size: 14px;
+}
+
+@media (max-width: 768px) {
+  .configuration {
+    padding: 15px;
+  }
+
+  .configuration h2 {
+    font-size: 20px;
+  }
+
+  .configuration input[type="number"] {
+    font-size: 14px;
+  }
+
+  .configuration button {
+    
+    width: 100%;
+  }
+}

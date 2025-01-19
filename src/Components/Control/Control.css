@@ -1,0 +1,23 @@
+.control {
+  margin: 20px 0;
+  display: flex;
+  justify-content: space-around;
+}
+button {
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: #007bff;
+  color: white;
+}
+button:hover {
+  background-color: #0056b3;
+}
+.start{
+  
+  background-color: rgb(28, 141, 43);
+}
+.stop{
+  background-color: crimson;
+}
