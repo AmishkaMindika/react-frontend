@@ -61,17 +61,13 @@ function Configuration() {
         <button  onClick={setNewConfiguration}>Set Configuration</button>
         <br />
 
-        <h2>Current Configuration </h2>
+        <h2> Current Configuration </h2>
         
-        <p className="current-config">Total Number of Tickets:{totalTickets} </p>
-        <p className="current-config">Ticket Release Rate:{releaseRate} </p>
-        <p className="current-config">Customer Retrieval Rate: {retrievalRate} </p>
-        <p className="current-config">Maximum Number of Tickets: {maximumCapacity} </p>
+        <p className="current-config ">Total Number of Tickets:{totalTickets} </p>
+        <p className="current-config ">Ticket Release Rate:{releaseRate} </p>
+        <p className="current-config ">Customer Retrieval Rate: {retrievalRate} </p>
+        <p className="current-config ">Maximum Number of Tickets: {maximumCapacity} </p>
         <br />
-        
-      
-       
-
     </div>
     
   
