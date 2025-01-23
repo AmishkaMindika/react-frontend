@@ -43,7 +43,7 @@ function Configuration() {
     };
 
 
-
+//return configuration
   return (
     
     <div className="configuration">

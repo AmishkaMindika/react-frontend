@@ -1,6 +1,6 @@
 import React from 'react';
 import './Control.css';
-
+//function control
 function Control({ onStart, onStop }) {
   return (
     <div className="control">
